@@ -18,10 +18,8 @@
 
 	<div class="clearfix divided">
 		<div class="pull-left w70">
-			<div class="yt-wrapper">
-				<img alt="Real-time chat with multi-tasking support" class="lazy-load" data-src="/assets/gallery/chat.png" />
-				<noscript><img alt="Real-time chat with multi-tasking support" src="/assets/gallery/chat.png" /></noscript>
-			</div>
+			<img alt="Real-time chat with multi-tasking support" class="lazy-load" data-src="/assets/gallery/chat.png" />
+			<noscript><img alt="Real-time chat with multi-tasking support" src="/assets/gallery/chat.png" /></noscript>
 		</div>
 		<div class="pull-right w30">
 			<h2>Built-in Realtime Chat.</h2>
@@ -50,10 +48,8 @@
 
 	<div class="clearfix divided">
 		<div class="pull-left w70">
-			<div class="yt-wrapper">
-				<img alt="Gamify your community with social interactions" class="lazy-load" data-src="/assets/gallery/reputation.png" />
-				<noscript><img alt="Gamify your community with social interactions" src="/assets/gallery/reputation.png" /></noscript>
-			</div>
+			<img alt="Gamify your community with social interactions" class="lazy-load" data-src="/assets/gallery/reputation.png" />
+			<noscript><img alt="Gamify your community with social interactions" src="/assets/gallery/reputation.png" /></noscript>
 		</div>
 		<div class="pull-right w30">
 			<h2 style="margin-top: 35px;">Social Interactions.</h2>
@@ -104,7 +100,7 @@
 		<div class="w33 pull-left">
 			<i class="fa fa-lock fa-4x"></i><br />
 			<h3>Roles & Permissions</h3>
-			<p>Control fine-grained, role-based permissions that can be assigned per category. Assign multiple roles to individual users.</p>
+			<p>Create private or read-only categories with access control. Give users or groups special roles to view or moderate content.</p>
 		</div>
 		<div class="w33 pull-left">
 			<i class="fa fa-tags fa-4x"></i><br />

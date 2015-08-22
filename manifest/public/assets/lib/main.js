@@ -33,13 +33,48 @@ $(document).ready(function() {
 		$('.left-arrow').on('click', scrollPlansLeft);
 		$('.right-arrow').on('click', scrollPlansRight);
 	}
+
+	var slideout = new Slideout({
+		'panel': document.getElementById('panel'),
+		'menu': document.getElementById('menu'),
+		'padding': 256,
+		'tolerance': 70
+	});
+
+	$('#mobile-menu').on('click', function() {
+		slideout.toggle();
+	});
+
+	$(window).on('resize', function() {
+		slideout.close();
+	});
+
+	function onOpeningMenu() {
+		$('#header').css({
+			'top': $('#panel').position().top * -1 + 'px',
+			'position': 'absolute'
+		});
+	}
+
+	slideout.on('beforeopen', onOpeningMenu);
+	slideout.on('open', onOpeningMenu);
+	slideout.on('translate', onOpeningMenu);
+
+	slideout.on('close', function() {
+		$('#header').css({
+			'top': '0px',
+			'position': 'fixed'
+		});
+	})
+
+	$('#product-menu-mobile').html($('#product-menu').html());
+	$('#navigation-menu-mobile').html($('#navigation-menu').html());
 		
 
 	function setupSly() {
 		var $frame = $('.frame');
 		var $wrap  = $frame.parent();
 
-		// Call Sly on frame
 		$frame.sly({
 			horizontal: 1,
 			itemNav: 'centered',

@@ -1,10 +1,61 @@
 <section class="content subpage showcase container clearfix">
 	<div class="clearfix dashboard text-center">
-		<h1>Real-time Analytics Dashboard</h1>
-		<h2>Be in control with access to trending content, user activity, and other forum metrics.</h2>
-		<img alt="See what your users are doing with via NodeBB's real-time graphs" src="/assets/gallery/dashboard.png" />
+		<h1>Control Everything</h1>
+		<h2>With over a dozen settings pages, you're able to administrate your forum as much as you want.</h2>
+		<img alt="NodeBB's control panel lets you customise every setting for your community forum" class="lazy-load" data-src="/assets/gallery/settings.png" />
+		<noscript><img alt="NodeBB's control panel lets you customise every setting for your community forum" src="/assets/gallery/settings.png" /></noscript>
 	</div>
 
+	<div class="clearfix dashboard text-center">
+		<h1>Real-time Analytics Dashboard</h1>
+		<h2>Be in control with access to trending content, user activity, and other forum metrics.</h2>
+		<img alt="See what your users are doing with via NodeBB's real-time graphs" class="lazy-load" data-src="/assets/gallery/dashboard.png" />
+		<noscript><img alt="See what your users are doing with via NodeBB's real-time graphs" src="/assets/gallery/dashboard.png" /></noscript>
+	</div>
+
+	<div class="clearfix divided">
+		<div class="pull-left w70">
+			<img alt="Use the custom CSS and custom header panel to insert styling or functionality" class="lazy-load" data-src="/assets/gallery/custom-css.png" />
+			<noscript><img alt="Use the custom CSS and custom header panel to insert styling or functionality" src="/assets/gallery/custom-css.png" /></noscript>
+		</div>
+		<div class="pull-right w30">
+			<h2>Customise with HTML, CSS, and JavaScript.</h2>
+			<p>
+				Tweak your forum's design to your heart's content. Don't worry - if something goes wrong, reverting is a snap. You can even paste scripts from third party vendors such as Google Analytics.
+			</p>
+		</div>
+	</div>
+
+	<div class="clearfix divided">
+		<div class="pull-left w30">
+			<h2>Drag-and-drop Widgets.</h2>
+			<p>
+				Add new functionality to your forum via the widgets system. You can add new content via an HTML widget or from over a dozen other widgets by dragging and dropping it onto a widget area on your forum.
+			</p>
+
+		</div>
+		<div class="pull-right w70">
+			<img alt="Drag and drop widgets onto your forum to customise its look" class="lazy-load" data-src="/assets/gallery/widgets.png" />
+			<noscript><img alt="Drag and drop widgets onto your forum to customise its look" src="/assets/gallery/widgets.png" /></noscript>
+		</div>
+	</div>
+
+	<div class="clearfix divided">
+		<div class="pull-left w70">
+			<img alt="Control fine-grained permissions with the access control panel" class="lazy-load" data-src="/assets/gallery/privileges.png" />
+			<noscript><img alt="Control fine-grained permissions with the access control panel" src="/assets/gallery/privileges.png" /></noscript>
+		</div>
+		<div class="pull-right w30">
+			<h2>Access Control.</h2>
+			<p>
+				Grant privileges to individual users or groups, allowing you to create read-only categories or hide them altogether.
+			</p>
+			<p>
+				Give forum members elevated roles such as "Moderator" to allow them to help police your community.
+			</p>
+		</div>
+	</div>
+<!--
 	<div class="clearfix dashboard text-center">
 		<h1>Administration Control Panel<br /><small>This is what NodeBB's administration interface can do out of the box.<br /> Plugins can also extend and add new features.</small></h1>
 		
@@ -158,6 +209,7 @@
 			</div>
 		</div>
 	</div>
+-->
 </section>
 
 <div class="container">
